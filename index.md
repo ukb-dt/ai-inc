@@ -1,3 +1,22 @@
+{% raw %}
+<!-- Drop this anywhere in your README.md or page HTML -->
+<script>
+  window.MathJax = {
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']],
+      displayMath: [['$$','$$'], ['\\[','\\]']],
+      processEscapes: true
+    },
+    options: {
+      skipHtmlTags: ['script','noscript','style','textarea','pre','code']
+    }
+  };
+</script>
+<script id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
+{% endraw %}
+
 # A
 If you’re talking about your “Clinical–Civilizational Pentad” mapping (Data → Compute → Power → Intelligence → Value) and the associated tables from your page, then yes—the major domains seem broadly captured in the current AI/biomedical ecosystem:
 
@@ -50,11 +69,11 @@ Perfect — here’s how we can represent the **full calculus column** alongside
 
 | AI–Civilization Layer | Biomedical Analogue        | AI Type       | Function / Flow Role                                         | Calculus / Dynamical Expression                                                                      |
 | --------------------- | -------------------------- | ------------- | ------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------- |
-| Data / Oracle         | Population Phenotypes      | World AI      | Raw variation / first principles capture                     | ( (E, x) ) — energy / variation associated with input x                                              |
-| Compute / Azure       | Analytical Conditioning    | Perceptual AI | Sensory inputs, structured signal extraction                 | ( E(t \mid x) ) — conditional expectation of energy over time given x                                |
-| Power / Nvidia        | Computational Flux         | Agentic AI    | Administrative throughput, operational energy                | ( \frac{dE_x}{dt} ) — rate of energy transfer / computational flux                                   |
-| Intelligence / OpenAI | Inference Curvature        | Generative AI | Creative/hypothesis-exploring interface; ethics embedded     | ( \pm \sqrt{\frac{d^2 E_x}{dt^2}} ) — curvature / ethical/uncertainty modulation                     |
-| Value / MarketCap     | Health Outcome Integration | Embodied AI   | Autonomy, real-world enactment; UI/UX & societal integration | ( \int E_x , dt + \epsilon_x t + C_x ) — integrated effect over time including stochastic/error term |
+| Data / Oracle         | Population Phenotypes      | World AI      | Raw variation / first principles capture                     | $(E, x)$ — energy / variation associated with input x                                              |
+| Compute / Azure       | Analytical Conditioning    | Perceptual AI | Sensory inputs, structured signal extraction                 | $E(t \mid x)$ — conditional expectation of energy over time given x                                |
+| Power / Nvidia        | Computational Flux         | Agentic AI    | Administrative throughput, operational energy                | $\frac{dE_x}{dt}$ — rate of energy transfer / computational flux                                   |
+| Intelligence / OpenAI | Inference Curvature        | Generative AI | Creative/hypothesis-exploring interface; ethics embedded     | $\pm \sqrt{\frac{d^2 E_x}{dt^2}}$ — curvature / ethical/uncertainty modulation                     |
+| Value / MarketCap     | Health Outcome Integration | Embodied AI   | Autonomy, real-world enactment; UI/UX & societal integration | $\int E_x , dt + \epsilon_x t + C_x$ — integrated effect over time including stochastic/error term |
 
 **How to read it aloud:**
 
